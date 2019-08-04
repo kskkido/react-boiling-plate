@@ -5,7 +5,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 module.exports = {
   entry: [
     'webpack-hot-middleware/client',
-    path.join(process.cwd(), 'app/index.js'),
+    path.join(process.cwd(), 'app/index.jsx'),
   ],
   output: {
     filename: '[name].js',
